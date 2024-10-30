@@ -60,3 +60,13 @@ header > img{
     width: 200px;
     height: 200px;
 }
+
+.card.connor{
+    background-image: linear-gradient(black, purple);
+    color: blue;
+
+}
+
+#bio2{
+    color: lightgreen;
+}
