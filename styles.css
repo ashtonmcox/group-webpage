@@ -52,3 +52,7 @@ button {
 button:hover {
     background: #0056b3;
 }
+.card > img{
+    width: 100px;
+    height: 100px;
+}
