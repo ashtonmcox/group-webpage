@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 header {
-    background: rgb(61,59,61);
+    background: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -60,7 +60,17 @@ header > img{
     width: 200px;
     height: 200px;
 }
-<<<<<<< HEAD
+
+.card.connor{
+    background-image: linear-gradient(black, purple);
+    color: blue;
+
+}
+
+#bio2{
+    color: lightgreen;
+}
+
 .moodboards {
     text-align: center;
     margin-top: 20px;
@@ -101,16 +111,3 @@ header > img{
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-=======
-
-.card.connor{
-    background-image: linear-gradient(black, purple);
-    color: blue;
-
-}
-
-#bio2{
-    color: lightgreen;
-}
->>>>>>> e24fdb13efbe6f62c637113598a582a80595db94
