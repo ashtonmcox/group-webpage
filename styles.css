@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 header {
-    background: rgb(61,59,61);
+    background: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -31,7 +31,7 @@ header {
     transform: scale(1.05);
 }
 .card img{
-    max-width: 200px;
+    max-width: 250;
 }
 h2 {
     margin: 0 0 10px;
@@ -60,6 +60,17 @@ header > img{
     width: 200px;
     height: 200px;
 }
+
+.card.connor{
+    background-image: linear-gradient(black, purple);
+    color: blue;
+
+}
+
+#bio2{
+    color: lightgreen;
+}
+
 .moodboards {
     text-align: center;
     margin-top: 20px;
@@ -100,4 +111,3 @@ header > img{
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
