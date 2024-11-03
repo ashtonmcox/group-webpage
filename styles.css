@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 header {
-    background: #333;
+    background: rgb(61,59,61);
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -60,3 +60,44 @@ header > img{
     width: 200px;
     height: 200px;
 }
+.moodboards {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.moodboard {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.moodboard h3 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.moodboard-content {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.moodboard-item {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.moodboard-meme > img{
+    width: 380px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
