@@ -111,3 +111,23 @@ header > img{
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.mission-statement {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    text-align: left;
+}
+
+.mission-statement h2, .mission-statement h3 {
+    color: #333;
+}
+
+.team-rules {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
