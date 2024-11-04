@@ -72,6 +72,8 @@ header > img{
 }
 
 .moodboards {
+    display: flex;
+    
     text-align: center;
     margin-top: 20px;
 }
@@ -96,6 +98,7 @@ header > img{
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .moodboard-item {
